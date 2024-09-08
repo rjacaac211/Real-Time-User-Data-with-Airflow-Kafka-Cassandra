@@ -1,0 +1,5 @@
+spark-submit --master spark://localhost:7077 --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.3.1,com.datastax.spark:spark-cassandra-connector_2.12:3.1.0 --conf "spark.pyspark.python=D:/Users/RJ/Career_Growth/Projects/Data_Engineering/Real-Time-User-Data-with-Airflow-Kafka-Spark/venv/Scripts/python.exe" spark_stream.py
+
+
+
+spark-submit --master spark://172.19.0.3:7077 --packages com.datastax.spark:spark-cassandra-connector_2.12:3.0.1,org.apache.spark:spark-sql-kafka-0-10_2.12:3.3.1 --conf "spark.pyspark.python=D:/Users/RJ/Career_Growth/Projects/Data_Engineering/Real-Time-User-Data-with-Airflow-Kafka-Spark/venv/Scripts/python.exe" spark_stream.py
